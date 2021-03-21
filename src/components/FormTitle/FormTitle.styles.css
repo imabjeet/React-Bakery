@@ -1,0 +1,14 @@
+.contact_page {
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+}
+
+h1 {
+  color: indianred;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+}

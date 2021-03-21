@@ -1,0 +1,45 @@
+.custom-button {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  width: 49%;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+}
+
+.single-button {
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  width: 100%;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: deeppink;
+}
+
+.yellow {
+  background-color: #ffc107;
+}
+
+.custom-button:hover {
+  background-color: #414141;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+
+.single-button:hover {
+  background-color: #414141;
+  color: #fff;
+  border: 1px solid #000;
+  cursor: pointer;
+}

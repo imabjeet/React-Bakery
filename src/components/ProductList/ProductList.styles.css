@@ -1,0 +1,36 @@
+.items {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px;
+}
+
+.item {
+  display: flex;
+  width: 300px;
+  align-items: center;
+  flex: 1 1 auto;
+  height: 100%;
+  flex-direction: column;
+}
+
+.image {
+  display: flex;
+  width: 95%;
+  height: 80%;
+  border: 1px black solid;
+  flex: 1 1 auto;
+}
+
+.item_name {
+  width: 95%;
+  background-color: lightskyblue;
+  height: 10%;
+  align-items: center;
+  margin: 1% 0%;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  color: purple;
+}

@@ -1,0 +1,11 @@
+.type {
+  margin: 0% 1%;
+  background-color: goldenrod;
+  height: 10%;
+  color: beige;
+  font-size: 25px;
+  padding: 10px 0px;
+  display: flex;
+  border-radius: 5px;
+  justify-content: center;
+}

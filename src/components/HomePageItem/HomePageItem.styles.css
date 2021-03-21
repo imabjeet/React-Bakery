@@ -1,0 +1,36 @@
+.menu-image {
+  display: flex;
+  flex: 1 1 auto;
+  width: 400px;
+  height: 290px;
+  border: 1px solid #000;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5%;
+  overflow: hidden;
+}
+.menu-background {
+  background-position: 50%;
+  width: 100%;
+  background-size: cover;
+  height: 100%;
+}
+
+.menu-image:hover .menu-background {
+  transform: scale(1.1);
+  transition: transform 6s;
+  cursor: pointer;
+}
+.menu-image:hover .content {
+  opacity: 1;
+}
+
+.content {
+  position: absolute;
+  width: 150px;
+  color: #4a4a4a;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #fff;
+  opacity: 0.7;
+}
