@@ -9,6 +9,7 @@
   margin: 0.5%;
   overflow: hidden;
 }
+
 .menu-background {
   background-position: 50%;
   width: 100%;
@@ -21,6 +22,7 @@
   transition: transform 6s;
   cursor: pointer;
 }
+
 .menu-image:hover .content {
   opacity: 1;
 }
